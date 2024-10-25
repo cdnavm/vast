@@ -1,0 +1,21 @@
+<VAST version="3.0">
+  <Ad id="videoAd">
+    <InLine>
+      <AdSystem>GitHub Video Ad</AdSystem>
+      <AdTitle>Your Video Ad Title</AdTitle>
+      <Description>Video Ad Description</Description>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:10</Duration> <!-- Replace with actual duration -->
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
+                <![CDATA[https://raw.githubusercontent.com/cdnavm/vast/main/v2.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
